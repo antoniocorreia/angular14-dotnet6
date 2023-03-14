@@ -28,4 +28,8 @@ export class AppComponent {
   editHero(hero:SuperHero){
     this.heroToEdit = hero;
   }
+
+  updateHeroList(heroes: SuperHero[]){
+    this.heroes = heroes;
+  }
 }
